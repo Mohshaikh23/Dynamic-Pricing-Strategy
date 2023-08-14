@@ -9,6 +9,7 @@ This is a Streamlit web application that implements a dynamic pricing model for 
   - [Description](#description)
   - [Features](#features)
   - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Description
 
@@ -28,21 +29,23 @@ The Dynamic Pricing Model App is built using Streamlit, a Python library for cre
 
 ```bash
 git clone https://github.com/Mohshaikh23/Dynamic-Pricing-Strategy.git
+```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 cd dynamic-pricing-app
 ```
 
-Install the required dependencies using pip:
+3. Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Usage
+## Usage
 Place your data files (dynamic_pricing.csv, test_data.csv) in the project directory.
+
 Run the Streamlit app:
 
 ```bash
