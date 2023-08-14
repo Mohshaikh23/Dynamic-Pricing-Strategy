@@ -73,8 +73,8 @@ def preprocess_data(data):
     data = pd.get_dummies(data, columns=["Vehicle_Type"], drop_first=True)
     
     return data
-
-
+new_data = preprocess_data(data)
+st.dataframe(new_data)
 # Train a Random Forest model
 def train_model(data):
     model = RandomForestRegressor()
